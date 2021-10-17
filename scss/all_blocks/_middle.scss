@@ -1,0 +1,31 @@
+.middle-item
+{
+    background-image: url(../img/logo/middle-logo.svg);
+    background-repeat: no-repeat;
+    background-size: 98%;
+    margin: 106px 100px;
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-around;
+}
+.middle-carton
+{
+    width: 255px;
+}
+.middle-h3 
+{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 71px;
+}
+.middle-p
+{
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #333D4B;
+    margin-top: 24px;
+}

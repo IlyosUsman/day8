@@ -1,0 +1,127 @@
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 768px;
+        margin: 0 auto;
+        padding: 0 39px;
+    }
+
+    .inner-part {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 44px;
+    }
+
+    .start__info {
+        width: 100%;
+        height: auto;
+        background-image: url(../img/Bitmap.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 117px;
+        padding-left: 86px;
+        padding-bottom: 116px;
+        border-radius: 10px;
+        margin-top: 45px;
+    }
+
+    .middle-item {
+        width: 100%;
+        background-image: url(../img/logo/middle-logo.svg);
+        margin: 0px;
+        background-repeat: no-repeat;
+        background-size: 98%;
+        display: block;
+    }
+
+    .middle-carton {
+        width: 573px;
+        height: auto;
+        display: flex;
+        margin-bottom: 70px;
+        margin-top: -50px;
+    }
+
+    .middle-text {
+        margin-left: 36px;
+    }
+
+    .middle-h3,
+    .middle-p {
+        text-align: left;
+    }
+
+    .basiss-row {
+        display: block;
+        margin-left: 57px;
+        font-size: 15px;
+    }
+
+
+    .bassis-head {
+        margin-bottom: 70px;
+        margin-left: 0;
+    }
+
+    .row-book {
+        width: 573px;
+        height: 180px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 24px;
+    }
+
+    .row__img {
+        padding-left: 0%;
+    }
+
+    .row-h3,
+    .row-p {
+        text-align: left;
+        width: 344px;
+    }
+
+    .finishing-item {
+        margin-top: 550px;
+        margin-left: 0;
+    }
+
+    .line {
+        width: 467px;
+    }
+
+    .flex-num {
+        width: 218px;
+    }
+
+    .flex-num:nth-child(2n) {
+        margin: 0px 15px;
+    }
+
+    .footer-jobs {
+        width: 688px;
+        height: 300px;
+    }
+
+    .practice {
+        display: block;
+    }
+
+    .footer-ul {
+        margin-right: 0px;
+        margin-left: 125px;
+        margin-top: 33px;
+    }
+
+    .link-site {
+        margin-left: 266px;
+        margin-top: 65px;
+    }
+
+    .img {
+        margin-left: 240px;
+    }
+}
+
+

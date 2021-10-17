@@ -1,0 +1,46 @@
+.inner-part 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 44px;
+}
+.link-right .link-ul
+{
+    display: flex;
+}
+.link-ul .link-li 
+{
+    list-style: none;
+    margin-left: 32px;
+}
+.link-li .link-a
+{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+    transition: all 0.2s ease;
+}
+.link-a--active 
+{
+    color: #000;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+}
+.link-li .link-a:hover,
+.link-a--active:hover
+{
+    border-bottom: 1px solid #83888F;
+    color: #000;
+    cursor: pointer;
+}
